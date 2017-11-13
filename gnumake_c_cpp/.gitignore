@@ -1,0 +1,61 @@
+# .gitignore for C/C++
+# Based on https://github.com/github/gitignore
+#
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.elf
+*.ko
+*.lo
+*.o
+*.obj
+*.slo
+
+# Linker output
+*.exp
+*.ilk
+*.map
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dll
+*.dylib
+*.so
+
+# Compiled Static libraries
+*.a
+*.dll
+*.dylib
+*.la
+*.lai
+*.lib
+*.so
+*.so.*
+
+# Executables
+*.app
+*.exe
+*.hex
+*.i*86
+*.out
+*.x86_64
+
+# Debug files
+*.dSYM/
+*.idb
+*.pdb
+*.su
+
+# Kernel Module Compile Results
+*.cmd
+*.mod*
+.tmp_versions/
+dkms.conf
+Mkfile.old
+Module.symvers
+modules.order
